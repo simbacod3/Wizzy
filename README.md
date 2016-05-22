@@ -23,3 +23,14 @@ Second Part:
 ![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/IML2.png)
 ##Nomenclature:
 ####CSharp basics
+
+##TODO:
+- [ ] Implement classes.
+- [ ] Make the View of the photo option.
+- [ ] Make the the controller of the photo option.
+- [ ] Initialize the project with animation.
+- [ ] Add a UI Design simple and attractive
+- [ ] Add the mock Ups of the final Design.
+- [ ] Add documentation of the view.
+- [ ] Add documentation of the back.
+- [ ] Add documentation of the model.
