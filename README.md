@@ -1,7 +1,7 @@
 # Wizzy
 The application -- open source code.
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/wizzy%20logo.png)
 
 #---------------------------------------------
 Wizzy is an application that allows you to get your dressing room on your Windows Phone.
@@ -17,9 +17,9 @@ Organized by a MVC Arc. We can give you an application with a photo treatment an
 Here's UML diagram.
 
 First Part:
-![Alt text](/relative/path/to/img.jpg?raw=true "FirstPart")
+![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/UML1.png)
 
 Second Part:
-![Alt text](/relative/path/to/img.jpg?raw=true "SecondPart")
+![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/UML2.png)
 ##Nomenclature:
 ####CSharp basics
