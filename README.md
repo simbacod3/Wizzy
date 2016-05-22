@@ -20,6 +20,6 @@ First Part:
 ![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/UML1.png)
 
 Second Part:
-![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/UML2.png)
+![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/IML2.png)
 ##Nomenclature:
 ####CSharp basics
