@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6dfa0248-2a92-40a6-bc76-f6b44c8ae517</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Wizzy.exe">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Wizzy.exe">
       <PackagePath>entrypoint\Wizzy.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxime\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -339,49 +339,49 @@
     <AppxPackagedFile Include="C:\Users\Maxime\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Wizzy.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Wizzy.xr.xml">
       <PackagePath>Wizzy.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Core\Wizzy.exe">
+    <AppxPackagedFile Include="C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\bin\x86\Debug\Core\Wizzy.exe">
       <PackagePath>Wizzy.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -1,10 +1,27 @@
-﻿<Page
+﻿<Page x:Name="Main"
     x:Class="Wizzy.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Wizzy"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="677.818" Width="392">
-    <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Height="677.666687011719" Icon="Accept" Label="" VerticalAlignment="Top" Width="392"/>
+    mc:Ignorable="d" Height="782" Width="544">
+    <Grid HorizontalAlignment="Left" Height="762" Margin="10,10,0,0" VerticalAlignment="Top" Width="524">
+        <StackPanel HorizontalAlignment = "Center">
+            <TextBlock Text = "Hello, world!"  Margin = "20"  Width = "200" 
+            HorizontalAlignment = "Left"/>
+
+            <TextBlock Text = "Write your name." Margin = "20" Width = "200" 
+            HorizontalAlignment = "Left"/>
+
+            <TextBox x:Name = "txtbox"  Width = "280" Margin = "20" 
+            HorizontalAlignment = "Left"/>
+
+            <Button x:Name = "button" Content = "Click Me" Margin = "20" 
+            />
+
+            <TextBlock x:Name = "txtblock" HorizontalAlignment = "Left" 
+            Margin = "20"/>
+        </StackPanel>
+    </Grid>
 </Page>
