@@ -3,7 +3,7 @@ The application -- open source code.
 
 ![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/wizzy%20logo.png)
 
-#---------------------------------------------
+#------------------------------------------------------------------------------------------------
 Wizzy is an application that allows you to get your dressing room on your Windows Phone.
 Developped with [VS Community](https://www.visualstudio.com/fr-fr/products/visual-studio-community-vs.aspx) by ESILV STUDENTS.
 
@@ -20,9 +20,16 @@ First Part:
 ![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/UML1.png)
 
 Second Part:
-![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/IML2.png)
+![Alt text](https://github.com/Maximeesilv/Wizzy/blob/master/icon/IML2.PNG)
+
 ##Nomenclature:
 ####CSharp basics
+* All classes begins with Maj and we attribute to it the camel notation
+* Classes are regrouped by categories
+* Attributes are written with camel notation and begins with normal notation
+* Parameters are explicit
+* the return values of Methods begins with "ret_blahblah"
+* Add more if missed some...
 
 ##TODO:
 - [ ] Implement classes.
