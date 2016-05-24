@@ -14,7 +14,7 @@ namespace Wizzy.Models
         private string firstName { get; set; }
         private string email { get; set; }
         private string password { get; set; }
-        private object socialMedia { get; set; }
+        private List<SocialMedia> socialMedia { get; set; }
         private string pathBodypic { get; set; }
         private string pathPicture { get; set; }
         private string shirtSize { get; set; }
@@ -59,7 +59,7 @@ namespace Wizzy.Models
         /// <param name="Weight">Explicit INT</param>
         /// <param name="ClothesCategory">Explicit LIST-CATEGORY</param>
         /// <param name="DressingList">Explicit LIST-DRESSING</param>
-        public User(string LastName, string FirstName, string Email, string Password, object SocialMedia, string PathBodypic,
+        public User(string LastName, string FirstName, string Email, string Password, List<SocialMedia> SocialMediaEl, string PathBodypic,
                     string PathPicture, string ShirtSize, bool Gender, int Age, int Id, int PentSize, int ShoeSize, double Height,
                     double Weight, List<Category> ClothesCategory, List<Dressing> DressingList)
         {
@@ -67,7 +67,7 @@ namespace Wizzy.Models
             this.firstName = FirstName;
             this.email = Email;
             this.password = Password;
-            this.socialMedia = SocialMedia;
+            this.socialMedia = SocialMediaEl;
             this.pathBodypic = PathBodypic;
             this.pathPicture = PathPicture;
             this.shirtSize = ShirtSize;
@@ -104,7 +104,7 @@ namespace Wizzy.Models
         /// <param name="ShoeSize">Explicit INT</param>
         /// <param name="Height">Explicit INT</param>
         /// <param name="Weight">Explicit INT</param>
-        public User(string LastName, string FirstName, string Email, string Password, object SocialMedia, string PathBodypic,
+        public User(string LastName, string FirstName, string Email, string Password, string PathBodypic,
                     string PathPicture, string ShirtSize, bool Gender, int Age, int Id, int PentSize, int ShoeSize, double Height,
                     double Weight)
         {
@@ -112,7 +112,6 @@ namespace Wizzy.Models
             this.firstName = FirstName;
             this.email = Email;
             this.password = Password;
-            this.socialMedia = SocialMedia;
             this.pathBodypic = PathBodypic;
             this.pathPicture = PathPicture;
             this.shirtSize = ShirtSize;
@@ -128,6 +127,7 @@ namespace Wizzy.Models
 
             this.clothesCategory = new List<Category>();
             this.dressingList = new List<Dressing>();
+            this.socialMedia = new List<SocialMedia>();
         }
 
         #endregion
@@ -199,7 +199,7 @@ namespace Wizzy.Models
         {
             try
             {
-                
+                //TODO: MODIFY_DRESSING TO IMPLEMENT
                 return new Dressing();
             }
             catch(Exception ex)
@@ -215,7 +215,15 @@ namespace Wizzy.Models
         /// <returns></returns>
         public bool Add_Category(Category categoryToAdd)
         {
-
+            try
+            {
+                this.clothesCategory.Add(categoryToAdd);
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
         }
 
         /// <summary>
@@ -225,7 +233,15 @@ namespace Wizzy.Models
         /// <returns></returns>
         public bool Delete_Category(Category categoryToDelete)
         {
-
+            try
+            {
+                this.clothesCategory.Remove(categoryToDelete);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
         /// <summary>
@@ -235,7 +251,14 @@ namespace Wizzy.Models
         /// <returns></returns>
         public Category Modify_Category(Category categoryToModify)
         {
+            try
+            {
 
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         /// <summary>
@@ -243,9 +266,9 @@ namespace Wizzy.Models
         /// </summary>
         /// <param name="socialMedia"></param>
         /// <returns></returns>
-        public bool Add_SocialMedia(string socialMedia)
+        public bool Add_SocialMedia(SocialMedia socialMedia)
         {
-
+            this.socialMedia.
         }
 
         /// <summary>
