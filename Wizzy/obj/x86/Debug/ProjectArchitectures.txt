@@ -1,1 +1,1 @@
-C:\Users\Maxime\documents\visual studio 2015\Projects\Wizzy\Wizzy\Wizzy.csproj;x86
+C:\Users\Marc\Desktop\Wizzy\Wizzy\Wizzy.csproj;x86
