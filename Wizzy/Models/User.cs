@@ -14,7 +14,7 @@ namespace Wizzy.Models
         private string firstName { get; set; }
         private string email { get; set; }
         private string password { get; set; }
-        private object socialMedia { get; set; }
+        private List<SocialMedia> socialMediaEl { get; set; }
         private string pathBodypic { get; set; }
         private string pathPicture { get; set; }
         private string shirtSize { get; set; }
@@ -46,7 +46,7 @@ namespace Wizzy.Models
         /// <param name="FirstName">Explicit STRING</param>
         /// <param name="Email">Explicit STRING</param>
         /// <param name="Password">Explicit STRING</param>
-        /// <param name="SocialMedia">Explicit OBJECT</param>
+        /// <param name="SocialMediaEl">Explicit LIST-SOCIALMEDIA</param>
         /// <param name="PathBodypic">Explicit STRING</param>
         /// <param name="PathPicture">Explicit STRING</param>
         /// <param name="ShirtSize">Explicit STRING</param>
@@ -59,7 +59,7 @@ namespace Wizzy.Models
         /// <param name="Weight">Explicit INT</param>
         /// <param name="ClothesCategory">Explicit LIST-CATEGORY</param>
         /// <param name="DressingList">Explicit LIST-DRESSING</param>
-        public User(string LastName, string FirstName, string Email, string Password, object SocialMedia, string PathBodypic,
+        public User(string LastName, string FirstName, string Email, string Password, List<SocialMedia> SocialMediaEl, string PathBodypic,
                     string PathPicture, string ShirtSize, bool Gender, int Age, int Id, int PentSize, int ShoeSize, double Height,
                     double Weight, List<Category> ClothesCategory, List<Dressing> DressingList)
         {
@@ -67,7 +67,7 @@ namespace Wizzy.Models
             this.firstName = FirstName;
             this.email = Email;
             this.password = Password;
-            this.socialMedia = SocialMedia;
+            this.socialMedia = SocialMediaEl;
             this.pathBodypic = PathBodypic;
             this.pathPicture = PathPicture;
             this.shirtSize = ShirtSize;
