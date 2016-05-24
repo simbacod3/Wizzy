@@ -24,7 +24,7 @@ namespace Wizzy.Models
                     int Age, int Id, int PantSize, int ShoeSize, double Height,double Weight, List<Category> ClothesCategory,
                     List<Dressing> DressingList)
                     : base(LastName, FirstName, Email, Password, SocialMediaEl, PathBodypic, PathPicture, ShirtSize, Gender, Age, Id, PantSize, 
-                          ShoeSize, Height, Weight) 
+                          ShoeSize, Height, Weight, ClothesCategory, DressingList) 
         {
             this.braSize = BraSize;
             this.cupSize = CupSize;
